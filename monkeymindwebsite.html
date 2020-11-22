@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Silvijos Portfolio | Monkey Mind Website</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/resume-website.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap_grayscale.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
+
+        <script src="js/handlebars-v3.0.3.js"></script>
+    </head>
+    <body onresize="resizeVideo()" id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+              <div>
+                <a class="navbar-brand" href="index.html" title="Grįžti į pagrindinį Silvijos Portfolio puslapį"><i class="fas fa-home"></i></a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Monkey Mind</a>
+              </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Meniu&nbsp;
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Apie svetainę</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">Demonstracija</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#game">Flappy Parrot</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg monkey-mind-web">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Monkey Mind</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">
+                      Internetinė vaizdo žaidimų svetainė.
+                    </h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">Hmm, įdomu...</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">Trumpai apie Monkey Mind Svetainę</h2>
+                        <p class="text-white-50">
+                          <b>Koncepcija</b>: minimalistinio stiliaus vaizdo žaidimų svetainė,
+                          turinti originalią stilistiką, vienodo meninio stiliaus žaidimus
+                          ir tvarkingą langų struktūrą. Tokiu būdu siekiama sukurti tarpusavyje
+                          panašių vaizdo žaidimų sistemą ir svetainės puslapius padaryti
+                          aiškiais, kuriuose greitai ir lengvai būtų galima rasti ieškomą
+                          informaciją bei mėgautis vaizdo žaidimu.
+                        </p>
+                        <p class="text-white-50">
+                          Tokio stiliaus internetinę žaidimų svetainę įkvėpė
+                          anksčiau kurtas tokio paties pavadinimo žaidimas
+                          <a href="monkeymind.html">Monkey Mind</a>.
+                        </p>
+                        <p class="text-white mb-2">
+                          Svetainėje vartotojas gali:
+                        </p>
+                        <ul class="text-white-50 mb-5">
+                            <li>žaisti žaidimus ir peržiūrėti žaidimų rezultatus;</li>
+                            <li>susikurti ir valdyti savo paskyrą;</li>
+                            <li>teigiamai arba neigiamai įvertinti žaidimą;</li>
+                            <li>pridėti žaidimus prie „mėgstamiausių“ sąrašo;</li>
+                            <li>komentuoti po žaidimais;</li>
+                            <li>atlikti žaidimų ir žaidėjų paiešką;</li>
+                            <li>peržiūrėti žaidėjų paskyras;</li>
+                            <li>pridėti kitus vartotojus prie „draugų“ sąrašo.</li>
+                        </ul>
+                        <p class="text-white mb-2">
+                          Duomenys saugomi duomenų bazėje.
+                        </p>
+                        <p class="text-white">
+                          Naudojama HTML5, PHP, MySQL ir JavaScript.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Video-->
+        <section class="projects-section" id="video">
+            <div class="container">
+                <div class="row align-items-center no-gutters mb-0">
+                  <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2>Žemiau vaizduojama sukurtos svetainės demonstracija</h2>
+                    <p>
+                      (kadangi ši svetainė buvo kuriama kaip „Interaktyvių
+                      interneto technologijų“ modulio (kodas T120B168)
+                      projektas, ji nebuvo publikuota, todėl pateikiamas tik
+                      paprastas svetainės funkcijas parodantis vaizdo įrašas).
+                    </p>
+                  </div>
+                  <div class="col-xl-12 col-lg-12 text-center mb-5">
+                    <div class="parent">
+                      <img class="computer" src="assets/img/Monkey Mind Website/laptop.png" />
+                      <video class="video-computer"
+                             src="assets/vid/Monkey Mind Web.mp4"
+                             poster="assets/img/Monkey Mind Website/bg-masthead-2.png"
+                             controls/>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-8 mx-auto text-center mt-5 pb-5">
+                    <h2>Svetainės ekranvaizdžių fragmentai:</h2>
+                  </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-8 col-lg-7 text-lg-right text-md-center">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture3.png" alt=""/>
+                  </div>
+                  <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Log in</h4>
+                            <p class="text-black-50 mb-0">
+                              Langas, kuriame vartotojas gali prisijungti prie svetainės.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-lg-4 text-lg-left text-center">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture4.png" alt=""/>
+                  </div>
+                  <div class="col-lg-8 order-lg-first">
+                        <div class="featured-text-right text-center text-lg-right">
+                            <h4>Menu</h4>
+                            <p class="text-black-50 mb-0">
+                              Meniu mygtukai, kuriuos paspaudus vartotojas atitinkamai nukreipiamas
+                              į savo asmeninio profilio puslapį, atidaromas informacijos arba nustatymų langas,
+                              arba vartotjas atsijungia nuo svetainės.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture9.png" alt=""/>
+                  </div>
+                  <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>About Monkey Mind</h4>
+                            <p class="text-black-50 mb-0">
+                              Iššokantis langas, kuriame parašyta informacija apie svetainę.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-6 col-lg-7 text-lg-left text-md-center">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture15.png" alt=""/>
+                  </div>
+                  <div class="col-xl-6 col-lg-5 order-lg-first">
+                        <div class="featured-text-right text-center text-lg-right">
+                            <h4>Settings</h4>
+                            <p class="text-black-50 mb-0">
+                              Iššokantis langas, kuriame vartotojas gali pakeisti svetainės nustatymus
+                              (projekto kūrimo metu buvo realizuotas puslapių atspalvio keitimo nustatymas).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-8 col-lg-7 text-lg-right text-center">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture6.png" alt=""/>
+                  </div>
+                  <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Drop-down Menu</h4>
+                            <p class="text-black-50 mb-0">
+                              Išskleidžiamasis meniu vaizduojamas esant siauresniam svetainės langui.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture1.png" alt=""/>
+                  </div>
+                  <div class="col-xl-4 col-lg-5 order-lg-first">
+                        <div class="featured-text-right text-center text-lg-right">
+                            <h4>Do you like this game?</h4>
+                            <p class="text-black-50 mb-0">
+                              Lentelė, kur vartotojas gali teigiamai arba neigiamai įvertinti žaidimą
+                              bei pridėti jį prie „mėgstamiausių“ sąrašo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture2.png" alt=""/>
+                  </div>
+                  <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                          <h4>Comments</h4>
+                          <p class="text-black-50 mb-0">
+                            Lentelė, esanti po žaidimu, kur vartotojas gali matyti atsiliepimus apie žaidimą
+                            bei pats parašyti komentarą.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-8 col-lg-7 text-lg-left text-center">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture8.png" alt=""/>
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture7.png" alt=""/>
+                  </div>
+                  <div class="col-xl-4 col-lg-5 order-lg-first">
+                        <div class="featured-text-right text-center text-lg-right">
+                            <h4>Flappy Parrot Highscores</h4>
+                            <p class="text-black-50 mb-0">
+                              Pagrindinis svetainei sukurto žaidimo meniu ir jo geriausių rezultatų meniu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-lg-6 text-lg-right text-center">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture13.png" alt=""/>
+                  </div>
+                  <div class="col-lg-6">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Game Over</h4>
+                            <p class="text-black-50 mb-0">
+                              Žaidimo „Flappy Parrot“ pralaimėjimo meniu
+                              (prie svetainės neprisijungę vartotojai negali
+                              išsaugoti geriausių žaidimo rezultatų).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                  <div class="col-xl-8 col-lg-7 text-lg-left text-center">
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture12.png" alt=""/>
+                    <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture14.png" alt=""/>
+                  </div>
+                  <div class="col-xl-4 col-lg-5 order-lg-first">
+                        <div class="featured-text-right text-center text-lg-right">
+                            <h4>User's Friends & Favourite Games</h4>
+                            <p class="text-black-50 mb-0">
+                              Vartotojo lango fragmentai, rodantys žaidėjo
+                              draugų ir mėgstamiausių žaidimų sąrašą.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Flappy Parrot-->
+        <section class="contact-section bg-black" id="game">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto text-center pb-5">
+                  <h2 class="text-white">Flappy Parrot</h2>
+                  <p class="text-white-50">
+                    Tai pagal „Flappy Bird“ sukurtas JavaScript žaidimas skirtas
+                    svetainės funkcijų demonstracijai. Jame vaizduojama urve
+                    skrendanti papūga. Žaidimo tikslas yra padėti papūgai
+                    išvengti susidūrimo su uolomis ir tokiu budu surinkti
+                    kuo daugiau taškų.
+                  </p>
+                </div>
+              </div>
+              <div class="parent col-lg-8 mx-auto" id="flappy" style="width: 100%;">
+              	<canvas id="canvas"></canvas>
+              	<div id="canvas-mask">
+              		<div id="game-menu">
+              			<h2 class="text-white">Flappy Parrot</h2>
+                    <a class="btn btn-primary text-white"
+                       onclick="hide('game-menu'); resetGame(); draw();">
+                       Play
+                    </a>
+              		</div>
+              		<div id="gamescores">
+              			<h2 class="text-primary">Game over</h2>
+              			<h4 class="text-white" id="score">Score :</h4>
+                    <a class="btn btn-primary text-white"
+                       onclick="hide('gamescores'); resetGame(); draw();">
+                       Play again
+                    </a>
+              		</div>
+              	</div>
+              	<script type="text/javascript" src="assets/flappy_parrot/flappyBird.js"></script>
+              </div>
+              <div class="row">
+                <div class="col-lg-8 mx-auto text-center pt-5 mb-5">
+                  <p class="text-white-50">
+                    <b>Žaidimo taisyklės</b>:
+                    spausk klaviatūros rodyklę <i class="fas fa-arrow-up"></i>
+                    arba spausk ant išmaniojo įrenginio ekrano,
+                    kad papūga pakiltų aukštyn.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Silvija Gvazdaitytė 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,330 @@
+.video {
+  width: 100%;
+}
+
+.video-vertical {
+  max-height: 500px;
+  text-align: center;
+}
+
+.image {
+  cursor: pointer;
+}
+
+.pat {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.silvija {
+  max-height: 300px;
+}
+
+a.project {
+  text-decoration: none;
+}
+
+img.project {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+div.project {
+  background: pink;
+  padding: 0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.bg-me {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/IMG_7477.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.me {
+    max-height: 500px;
+}
+
+.bg-monkey-mind {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/MonkeyMind/bg-masthead.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.monkey-mind-web {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/Monkey Mind Website/bg-masthead.png");
+}
+
+.las-aventuras-del-monito {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/Las Aventuras del Monito/bg-masthead.jpg");
+}
+
+.las-aventuras-del-monito-2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/Las Aventuras del Monito/bg-masthead-3.jpg");
+}
+
+
+.the-beast {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/The Beast/Intro.png");
+}
+
+.unbox-your-past {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/UNBOX Your Past/box.png");
+}
+
+.travel-diary {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.9) 75%, #000000 100%), url("../assets/img/Travel Diary/Capture.png");
+}
+
+.patterns {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.9) 75%, #000000 100%), url("../assets/img/P4tterns/pattern.jpg");
+}
+.patterns-2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.9) 75%, #000000 100%), url("../assets/img/P4tterns/pattern2.jpg");
+}
+
+.unbox-your-past-mockup {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/UNBOX Your Past/Mockup.png");
+}
+
+.of-in {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/OF IN/Picture13.png");
+}
+
+.of-in-2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.9) 75%, #000000 100%), url("../assets/img/OF IN/Picture14.png");
+}
+
+.bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+a.project {
+    text-decoration: none;
+}
+a.project img {
+  filter: grayscale();
+}
+
+a.project:hover img{
+  filter: none;
+}
+
+a.project:hover p{
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.no-border {
+  border-left: none !important;
+}
+/*a.project img:hover,
+    a.project img:focus {
+      transform: translate(-9px, -9px);
+      box-shadow: 10px 10px #95e1d3;
+    }
+
+a.project img:hover::before,
+    a.project img:focus::before {
+      background-image: -moz-linear-gradient( 90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
+      background-image: -webkit-linear-gradient( 90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
+      background-image: -ms-linear-gradient( 90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
+      mix-blend-mode: overlay;
+    }*/
+
+/*a.project img:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(to bottom, rgba(255,0,0,0) 0%,rgba(255,0,0,0.65) 100%);
+}*/
+
+a.project .overlay {
+  position: relative;
+}
+
+a.project .overlay:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%);
+
+}
+
+a.project:hover .overlay:after {
+  opacity: .2;
+}
+
+.about-section hr {
+  background: #64a19d;
+  border-width: 0.25rem;
+  width: 30%;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.parent .phone {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.parent .video {
+  position: absolute;
+  top: 60px;
+  left: -0.5px;
+  max-height: 380px;
+}
+
+.parent .video-2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 40px;
+}
+
+.parent .video-3 {
+  position: absolute;
+  top: 46px;
+  left: 0px;
+  max-height: 400px;
+}
+
+.parent .phone-2 {
+  text-align: center;
+  position: absolute;
+  top: -13.5px;
+  left: 0px;
+  max-height: 542.5px;
+  pointer-events:none;
+}
+
+@media (max-width: 768px) {
+  .card-break {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) {
+  .parent .phone-2 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .parent .video-3 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .parent .phone-2, .parent video-3 {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .parent .phone-2, {
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .parent .video {
+    left: 67px;
+  }
+  .parent .video-3 {
+    left: 133px;
+  }
+  .parent .phone-2 {
+    left: 122.5px;
+  }
+  .parent .video-2 {
+    left: -17px;
+  }
+}
+@media (min-width: 1200px) {
+  .parent .video {
+    left: 150.5px;
+  }
+  .parent .video-3 {
+    left: 301px;
+  }
+  .parent .phone-2 {
+    left: 290px;
+  }
+  .parent .video-2 {
+    left: -17px;
+  }
+}
+
+.parent .computer {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.video-computer {
+  max-width: 77%;
+  text-align: center;
+}
+
+.parent .video-computer {
+  position: absolute;
+  top: 7.1%;/*34px;*/
+  left: 11.55%;
+}
+
+.projects-section .featured-text-right {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text-right {
+    padding: 0 2rem 0 0;
+    border-right: 0.5rem solid #64a19d;
+  }
+}
+
+#canvas-mask {
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+  width: 100%;
+  height: calc(100% - 5px);
+  border: 5px solid black;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%);
+}
+#game-menu {
+  padding: 25% 0;
+  text-align: center;
+}
+
+#gamescores {
+	display: none;
+  padding: 25% 0;
+  text-align: center;
+}

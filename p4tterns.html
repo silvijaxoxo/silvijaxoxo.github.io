@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Silvijos Portfolio | P4tterns</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/resume-website.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap_grayscale.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
+
+        <script src="js/handlebars-v3.0.3.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+              <div>
+                <a class="navbar-brand" href="index.html" title="Grįžti į pagrindinį Silvijos Portfolio puslapį"><i class="fas fa-home"></i></a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">P4tterns</a>
+              </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Meniu&nbsp;
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Apie žaidimą</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">Demonstracija</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#screenshots">Ekranvaizdžiai</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg patterns">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">P4tterns</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Žaidimas Android įrenginiams.</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">Woop woop!</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">Trumpai apie P4tterns</h2>
+                        <p class="text-white-50">
+                          Tai 2D tipo žaidimas skirtas mobiliesiems Android įrenginiams.
+                          P4tterns sudaro 4 mini-žaidimai, kuriuose lavinama žaidėjo atmintis, logika, pastabumas ir dėmesingumas.
+                        </p>
+                        <!--<p class="text-white-50 mb-2">
+                          Plačiau apie mini-žaidimų taisykles:
+                        </p>
+                        <ul class="text-white-50 mb-5">
+                            <li>Pirmame mini-žaidime lavinama žaidėjo atmintis: ekrane parodomas iš rašto elementų (jų kiekis gali būti nuo 1 iki 4) sudarytas vaizdas ir reikia atsakyti, ar tam tikras šio raštų išdėstymo parametras (rašto paveiksliukas, kiekis, dydis, sukimosi kryptis, sukimosi greitis) yra lygus prieš tai buvusiam. Žaidimo logika: pradžioje kelias sekundes parodomas pirmas raštų išdėstymas. Tuomet jis pradingsta ir ekrane užkraunamas kitas raštų išdėstymas. Žaidėjas turi atsakyti į ekrane parodytą klausimą (pvz, „ar raštų sukimosi kryptis sutampa?“) lygindamas dabar rodomą vaizdą su prieš tai buvusiu, nuspausdamas kažkurį iš dviejų mygtukų „Yes“ ar „No“. Nepriklausomai nuo to, ar žaidėjas atsakė teisingai, paspaudus kažkurį mygtuką ekrane vaizduojamas raštų išdėstymas pakeičiamas kitu. Šį kartą reikia atsakyti į kitą ekrane užduotą klausimą ir t.t.</li>
+                            <li>Antrame mini-žaidime tikrinama žaidėjo logika: reikia parinkti tinkamą elementą į tuščią rašto vietą. Žaidimo metu automatiškai generuojami raštai, susidedantys iš 4 elementų, tačiau kažkurioje vietoje vieno iš jų trūksta. Iš žemiau pateiktų 2-jų ar daugiau raštų elementų žaidėjas turi parinkti tinkamiausią į trūkstamo elemento vietą.</li>
+                            <li>Trečiame mini-žaidime tobulinamas žaidėjo pastabumas. 4x4 tinklelyje užkraunami elementai, sudarantys raštą. Žaidėjo užduotis – tinklelyje rasti klaidingai įterptą elementą. Paspaudus ant „klaidingo“ elemento raštas yra pataisomas ir ekrane sugeneruojamas naujas raštas. Jei žaidėjas suklysta ir paspaudžia ant teisingai įterpto elemento, ekrane parodoma, kad jis suklydo, ir žaidėjas toliau turi ieškoti klaidos.</li>
+                            <li>Paskutiniame mini-žaidime lavinamas žaidėjo susikaupimas: reikia surūšiuoti automatiškai generuojamus rašto elementus. Žaidimo logika: išilgai per ekrano vidurį yra generuojama raštų elementų eilė. Žaidimo metu reikia vienus elementus priskirti arba kairei, arba dešinei, paliečiant ekraną atitinkamoje pusėje. Mini-žaidimo pradžioje yra tik dviejų rūšių elementai. Žaidimo eigoje gali atsirasti dar kitos rūšies rašto elementų, kuriuos taip pat reikės priskirti kažkuriai pusei.</li>
+                        </ul>-->
+                        <p class="text-white mb-2">
+                          Raštų elementai nupiešti naudojant CorelDraw X6.
+                        </p>
+                        <p class="text-white mb-2">
+                          Programavimo kalba: C#.
+                        </p>
+                        <p class="text-white">
+                          Sukurta naudojant Unity programinę įrangą.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-2">
+                    <img class="pat mb-5" src="assets/img/P4tterns/pat0.jpg" alt="">
+                  </div>
+                  <div class="col-2">
+                    <img class="pat mb-5" src="assets/img/P4tterns/pat4.jpg" alt="">
+                  </div>
+                  <div class="col-2">
+                    <img class="pat mb-5" src="assets/img/P4tterns/pat7.jpg" alt="">
+                  </div>
+                  <div class="col-2">
+                    <img class="pat mb-5" src="assets/img/P4tterns/pat8.jpg" alt="">
+                  </div>
+                  <div class="col-2">
+                    <img class="pat mb-5" src="assets/img/P4tterns/pat10.jpg" alt="">
+                  </div>
+                  <div class="col-2">
+                    <img class="pat mb-5" src="assets/img/P4tterns/pat18.jpg" alt="">
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col-lg-8 mx-auto">
+                      <h2 class="text-white mb-4">Žaidimo taisyklės</h2>
+                      <p class="text-white-50 mb-4">
+                        Pirmame mini-žaidime lavinama žaidėjo atmintis: ekrane parodomas iš rašto elementų (jų kiekis gali būti nuo 1 iki 4) sudarytas vaizdas ir reikia atsakyti, ar tam tikras šio raštų išdėstymo parametras (rašto paveiksliukas, kiekis, dydis, sukimosi kryptis, sukimosi greitis) yra lygus prieš tai buvusiam. Žaidimo logika: pradžioje kelias sekundes parodomas pirmas raštų išdėstymas. Tuomet jis pradingsta ir ekrane užkraunamas kitas raštų išdėstymas. Žaidėjas turi atsakyti į ekrane parodytą klausimą (pvz, „ar raštų sukimosi kryptis sutampa?“) lygindamas dabar rodomą vaizdą su prieš tai buvusiu, nuspausdamas kažkurį iš dviejų mygtukų „Yes“ ar „No“. Nepriklausomai nuo to, ar žaidėjas atsakė teisingai, paspaudus kažkurį mygtuką ekrane vaizduojamas raštų išdėstymas pakeičiamas kitu. Šį kartą reikia atsakyti į kitą ekrane užduotą klausimą ir t.t.
+                      </p>
+                      <p class="text-white-50 mb-4">
+                        Antrame mini-žaidime tikrinama žaidėjo logika: reikia parinkti tinkamą elementą į tuščią rašto vietą. Žaidimo metu automatiškai generuojami raštai, susidedantys iš 4 elementų, tačiau kažkurioje vietoje vieno iš jų trūksta. Iš žemiau pateiktų 2-jų ar daugiau raštų elementų žaidėjas turi parinkti tinkamiausią į trūkstamo elemento vietą.
+                      </p>
+                      <p class="text-white-50 mb-4">
+                        Trečiame mini-žaidime tobulinamas žaidėjo pastabumas. 4x4 tinklelyje užkraunami elementai, sudarantys raštą. Žaidėjo užduotis – tinklelyje rasti klaidingai įterptą elementą. Paspaudus ant „klaidingo“ elemento raštas yra pataisomas ir ekrane sugeneruojamas naujas raštas. Jei žaidėjas suklysta ir paspaudžia ant teisingai įterpto elemento, ekrane parodoma, kad jis suklydo, ir žaidėjas toliau turi ieškoti klaidos.
+                      </p>
+                      <p class="text-white-50">
+                        Paskutiniame mini-žaidime lavinamas žaidėjo susikaupimas: reikia surūšiuoti automatiškai generuojamus rašto elementus. Žaidimo logika: išilgai per ekrano vidurį yra generuojama raštų elementų eilė. Žaidimo metu reikia vienus elementus priskirti arba kairei, arba dešinei, paliečiant ekraną atitinkamoje pusėje. Mini-žaidimo pradžioje yra tik dviejų rūšių elementai. Žaidimo eigoje gali atsirasti dar kitos rūšies rašto elementų, kuriuos taip pat reikės priskirti kažkuriai pusei.
+                      </p>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- Video-->
+        <section class="projects-section bg-light pt-5 pb-5" id="video">
+            <div class="container">
+                <div class="row align-items-center no-gutters mb-5 mb-lg-4">
+                    <div class="col-xl-6 col-lg-5 text-center text-lg-right">
+                      <div class="parent">
+                        <img class="phone video-vertical" src="assets/img/P4tterns/huawei-p10-lite.png" />
+                        <video class="video-3 video-vertical"
+                               src="./assets/vid/P4tterns.mp4"
+                               poster="./assets/img/P4tterns/Splash and Swipe.png"
+                               controls/>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="featured-text no-border text-center text-lg-left">
+                            <h4>Rezultatai</h4>
+                            <p class="text-black-50">
+                              Iš viso buvo sukurta 15 paveiksliukų, vaizduojančių UNBOX -Your Past-
+                              mobiliosios programėlės langus. Nors jų išvaizda buvo sudaryta remiantis
+                              populiarios Instagram programėlės vartotojo sąsaja,
+                              šio projektu metu buvo siekiama sukurti vizualiai
+                              patrauklų ir savo koncepsiją atitinkantį grafinio dizaino darbą.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Screenshots-->
+        <section class="projects-section bg-light pt-5" id="screenshots">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <h2 class="text-black mb-5">Žaidimo ekranvaizdžiai</h2>
+                </div>
+              </div>
+              <!-- Container game screenshots -->
+              <div id="screenshots-content"
+                   role="main"></div>
+
+              <script id="screenshots-template" type="text/x-handlebars-template">
+                <div class="row justify-content-center no-gutters" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                  {{#each images}}
+                     <div class="col-xl-3 col-sm-4 col-6">
+                       <img class="image img-fluid p-lg-2 p-1"
+                            src="{{src}}"
+                            data-target="#carouselExample"
+                            data-slide-to="{{to}}"/>
+                     </div>
+                  {{/each}}
+                </div>
+              </script>
+              <!-- / screenshots -->
+
+              <!-- Modal for screenshots -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+
+                    <!-- Carousel -->
+                    <div id="carousel-content"
+                         role="main"></div>
+
+                    <script id="carousel-template" type="text/x-handlebars-template">
+                      <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                          {{#each images}}
+                          <div class="carousel-item {{active}}">
+                            <img class="d-block w-100" src="{{src}}">
+                          </div>
+                          {{/each}}
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </script>
+                    <!-- carousel-->
+                  </div>
+                </div>
+              </div>
+              <!-- / modal -->
+
+          </div>
+        </section>
+        <section class="signup-section bg patterns-2">
+          <div class="container">
+          </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Silvija Gvazdaitytė 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- Screenshots' data-->
+        <script src="js/data_p4tterns.js"></script>
+        <!-- Script for carousel modal-->
+        <script src="js/modal_carousel.js"></script>
+
+    </body>
+</html>

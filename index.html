@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Silvijos portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/resume-website.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap_grayscale.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
+        <!-- Handlebars-->
+        <script src="js/handlebars-v3.0.3.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Silvijos Portfolio</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Meniu&nbsp;
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Apie</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projektai</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Kontaktai</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-me">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Sveiki!</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Šiame puslapyje pateikiami mano - <b>Silvijos Gvazdaitytės</b> - darbai:)</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">Važiuojam!&nbsp<i class="fas fa-car-alt"></i></a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">Trumpai apie mane</h2>
+                        <p class="text-white-50 mb-4">
+                          Taigi, mano vardas - <b>Silvija Gvazdaitytė</b>. Esu racionalus meniškos prigimties žmogus,
+                          kuriam darbe svarbiausia sukurti vizualiai patrauklų ir funkcionalų IT produktą.
+                          Mane domina animacinių filmukų kūrimas, Android programėlių ir vaizdo žaidimų programavimas
+                          bei internetinių puslapių kūrimas.
+                        </p>
+                        <p class="text-white-50 mb-5">
+                          2020 m. Kauno technologijos universitete Informatikos fakultete
+                          su pagyrimu baigiau informatikos inžinerijos studijų krypties
+                          bakalauro studijų programą Multimedijos technologijos
+                          (kodas 612E14002) ir man buvo suteiktas
+                          INFORMACINIŲ TECHNOLOGIJŲ BAKALAURO laipsnis.
+                        </p>
+                        <hr class="mb-5">
+                        <p class="text-white-50 mb-4">
+                          Laisvalaikiu mėgstu skaityti knygas, važinėti su riedučiais,
+                          o kai pasitaiko geresnė galimybė, tai labai patinka kopti į kalnus:)
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card h-100" style="border: none;">
+                        <img class="image img-fluid card-img-top"
+                             src="./assets/img/IMG_7901.jpg"
+                             alt="Teryho chata (Rugpjūtis 2020)" />
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card h-100" style="border: none;">
+                        <img class="image img-fluid card-img-top"
+                             src="./assets/img/IMG_7437.jpg"
+                             alt="Rysy viršūnė (Rugpjūtis 2020)" />
+                      </div>
+                  </div>
+                  <div class="col-md-4 ">
+                      <div class="card h-100" style="border: none;">
+                        <img class="image img-fluid card-img-top"
+                             src="./assets/img/IMG_1383.png"
+                             alt="Ben Nevis (Spalis 2020)" />
+                      </div>
+                  </div>
+                </div>
+                <!--<img class="img-fluid silvija" src="assets/img/me.jpg" alt="" />-->
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container">
+                <div class="row align-items-center no-gutters mb-0">
+                  <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2>Projektai</h2>
+                    <p>
+                      Žemiau pateikiami mano kurti darbai, kurių kategorijos apima
+                      nuo grafinio dizaino projektų ir animacijų iki vaizdo žaidimų ir Android programėlių.
+                    </p>
+                  </div>
+                </div>
+              <!-- Project One Row-->
+              <a class="project" href="monkeymind.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid" src="assets/img/MonkeyMind/Picture2.png" alt="Monkey Mind žaidimo ekranvaizdis"/>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Monkey Mind</h4>
+                                    <p class="mb-0 text-white-50">2D platforminis žaidimas apie šimpanzės nuotykius juodai-baltose džiunglėse.</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+              <!-- Project Two Row-->
+              <a class="project" href="ofinlt.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid" src="assets/img/OF IN/Picture8.png" alt="Kadras iš animacijos OFIN.lt"/>
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">OFIN.lt reklama</h4>
+                                    <p class="mb-0 text-white-50">2D reklaminė animacija apie elektroninę biuro prekių parduotuvę.</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+              <!-- Project Three Row-->
+              <a class="project" href="traveldiary.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid" src="assets/img/Travel Diary/Capture.png" alt="Travel Diary programėlės ekranvaizdis"/>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Travel Diary</h4>
+                                    <p class="mb-0 text-white-50">Android programėlė, skirta redaguoti paveiksliukų lokacijos ir laiko metaduomenis.</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+              <!-- Project Four Row-->
+              <a class="project" href="lasaventurasdelmonito.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid"
+                           src="assets/img/Las Aventuras del Monito/Level5_3.jpg"
+                           alt="Las Aventuras del Monito žaidimo ekranvaizdis" />
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Las Aventuras del Monito</h4>
+                                    <p class="mb-0 text-white-50">
+                                      2D platforminis žaidimas. Bakalaurinio darbo projektas.
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+              <!-- Project Five Row-->
+              <a class="project" href="thebeast.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid" src="assets/img/The Beast/Picture2.png" alt="Kadras iš animacijos The Beast"/>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">The Beast</h4>
+                                    <p class="mb-0 text-white-50">2D animacija. Apie naktį, šešėlius, gyvūnų galvų trofėjus ir... pabaisą.</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+              <!-- Project Six Row-->
+              <a class="project" href="monkeymindwebsite.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid" src="assets/img/Monkey Mind Website/Picture6.png" alt="" />
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Monkey Mind</h4>
+                                    <p class="mb-0 text-white-50">
+                                      Internetinė vaizdo žaidimų svetainė.
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+              <!-- Project Seven Row-->
+              <a class="project" href="unboxyourpast.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid" src="assets/img/UNBOX Your Past/Mockup.png" alt="UNBOX Your Past mockup" />
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">UNBOX -Your Past-</h4>
+                                    <p class="mb-0 text-white-50">
+                                      Mobiliosios programėlės grafinio dizaino projektas.
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+              <!-- Project Eight Row-->
+              <a class="project" href="p4tterns.html">
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6 overlay">
+                      <img class="img-fluid" src="assets/img/P4tterns/pattern.jpg" alt="P4tterns žaidimo ekranvaizdis" />
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">P4tterns</h4>
+                                    <p class="mb-0 text-white-50">
+                                      Žaidimas Android įrenginiams.
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </a>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black" id="signup">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-10 col-lg-8 mx-auto text-center">
+                      <h2 class="text-white mb-5">Sudomino? Susisiekime:</h2>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">E-paštas</h4>
+                                <hr class="my-4"/>
+                                <div class="small text-black-50"><a href="#!">sgvazdaityte@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Mob. telefonas</h4>
+                                <hr class="my-4"/>
+                                <div class="small text-black-50">+370 678 63412</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://github.com/silvijaxoxo/"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com/silvija.gvazdaityte/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://www.instagram.com/silvijaxoxo/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Silvija Gvazdaitytė 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- This container is used for modal pop-up -->
+        <div id="content"  class="container-fluid"  role="main"></div>
+
+        <!-- This template displays a modal pop-up of the image. -->
+        <script id="modal-template" type="text/x-handlebars-template">
+          <div id="imageModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" style="width:800">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img style="width:100%" src="{{src}}" alt="{{title}}" title="{{title}}"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </script>
+
+        <!-- Script for Modal pop up-->
+        <script type="text/javascript">
+          var source = $("#modal-template").html();
+          var modal_template = Handlebars.compile(source);
+
+          $(".image").click(function(){
+            var data = {
+              src: $(this).attr('src'),
+              title: $(this).attr('alt')
+            };
+            var html = modal_template(data);
+            $('#content').html(html);
+            $("#imageModal").modal('show');
+      		});
+        </script>
+    </body>
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Silvijos Portfolio | Travel Diary</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/resume-website.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap_grayscale.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
+
+        <script src="js/handlebars-v3.0.3.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+              <div>
+                <a class="navbar-brand" href="index.html" title="Grįžti į pagrindinį Silvijos Portfolio puslapį"><i class="fas fa-home"></i></a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Travel Diary</a>
+              </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Meniu&nbsp;
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Apie programėlę</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#video">Demonstracija</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#documentation">Dokumentacija</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg travel-diary">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Travel Diary</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Android programėlė, skirta redaguoti paveiksliukų lokacijos ir laiko metaduomenis.</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">Let's Travel!</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">Trumpai apie Travel Diary</h2>
+                        <p class="text-white-50 mb-4">
+                          Tai programėlė, kurioje vartotojas gali redaguoti
+                          .jpeg failų lokacijos, laiko ir komentaro EXIF metaduomenis.
+                          Naudojamas Google prisijungimas, todėl vartotojas gali
+                          įkelti redaguotus paveiksliukus į savo Google Drive.
+                        </p>
+                        <p class="text-white-50">
+                          Redaguotus paveiksliukus galima peržiūrėti
+                          skirtinguose režimuose: Google žemėlapio (rodančio
+                          kiekvieno .jpeg failo koordinates), tinklelio ir
+                          nuoseklaus išdėstymo režime. Be to, vartotojas gali
+                          peržiūrėti kiekvieną vaizdą individualiai ir, jei
+                          nori, juos ištrinti. Taip pat yra galimybė vartotojui
+                          pasidalinti savo paveiksliukais kitose programėlėse.
+                        </p>
+                        <p class="text-white-50 mb-2">
+                          Programavimo kalba: Java.
+                        </p>
+                        <p class="text-white-50 mb-2">
+                          Sukurta naudojant Android Studio.
+                        </p>
+                        <p class="text-white-50">
+                          Vieša projekto repozitorija <a href="https://bitbucket.org/silvijaxoxo/travel-diary/src/master/">Bitbucket</a>.
+                        </p>
+                        <p class="text-white">
+                          Kyla klausimas, kodėl ši programėlė vadinasi „Travel Diary“?
+                          Arba kaip ji yra susijusi su kelionėm?
+                          O gi atsakymas yra labai paprastas - ši programėlė yra skirta tiems,
+                          kurie nori savo išmaniajame įrenginyje turėti savo kelionių dienoraštį,
+                          nuotraukų ir įvairių paveiksliukų pagalba perteikiantį visas aplankytas vietoves:)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Video-->
+        <section class="projects-section mt-5 pt-5 pb-0" id="video">
+            <div class="container">
+                <div class="row align-items-center no-gutters">
+                    <div class="col-xl-6 col-lg-5 text-center text-lg-right">
+                      <div class="parent">
+                        <video class="video-2 video-vertical"
+                               src="assets/vid/Travel Diary.mp4"
+                               poster="assets/img/Travel Diary/LoginActivity2.jpg"
+                               controls></video>
+                        <img class="phone-2" src="assets/img/Travel Diary/Huawei P Smart.png" />
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="featured-text no-border text-center text-lg-left">
+                            <h4>Programėlės demonstracija</h4>
+                            <p class="text-black-50">
+                              Šiame vaizdo įraše vaizduojamas 3 pagrindinių programėlės
+                              langų veikimas. Kiekvienas langas skirtingai pateikia
+                              per programėlę redaguotų paveiksliukų informaciją:
+                              žemėlapis rodo koordinates, priskirtas prie .jpeg failo,
+                              tinklelis atitinka galerijos funkciją vizualiai pateikdamas
+                              paveiksliukus, o paskutinis langas .jpeg failus pateikia
+                              kaip sąrašą, surikiuotą pagal datą.
+                            </p>
+                            <p class="text-black-50">
+                              Vaizdo įraše parodoma, kaip veikia paveiksliukų dalinimosi
+                              ir filtravimo funkcijos. Plačiau apie šių ir kitų funkcijų veikimą
+                              galima rasti toliau pateiktoje projekto dokumentacijoje.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Documentation-->
+        <section class="projects-section mt-5 pt-5" id="documentation">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 col-lg-8 mt-0 pt-0 mx-auto text-center">
+                    <h2 class="text-black mb-2">Plačiau apie kiekvieną programėlės langą</h2>
+                    <p class="text-black-50 mb-5">(toliau pateikiama projekto dokumentacija anglų kalba)</p>
+                </div>
+              </div>
+              <!-- Container App screenshots -->
+              <div class="row justify-content-center no-gutters"
+                   id="screenshots-content"
+                   role="main"></div>
+
+                <script id="screenshots-template" type="text/x-handlebars-template">
+                  {{#each activities}}
+                  <div class="row col-lg-12 mx-auto">
+                    <h4>{{title}}</h4>
+                    {{#each description}}
+                      {{{text}}}
+                    {{/each}}
+                  </div>
+                  <div class="row mb-5">
+                    {{#each images}}
+                    <div id="{{section}}" class="{{class}} text-center">
+                      <img class="image img-fluid video-vertical"
+                           src="{{src}}" alt="{{alt}}">
+                      <p class="text-black-50">{{alt}}</p>
+                    </div>
+                    {{/each}}
+                  </div>
+                  {{/each}}
+                </script>
+              <!-- / screenshots -->
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Silvija Gvazdaitytė 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- This container is used for modal pop-up -->
+        <div id="content"  class="container-fluid"  role="main"></div>
+
+        <!-- This template displays a modal pop-up of the image. -->
+        <script id="modal-template" type="text/x-handlebars-template">
+          <div id="imageModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-sm" style="width:800">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img style="width:100%" src="{{src}}" alt="{{title}}"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </script>
+
+        <!-- Script for Modal pop up-->
+        <script type="text/javascript">
+
+          var source   = $("#screenshots-template").html();
+          var screenshots_template = Handlebars.compile(source);
+
+          source   = $("#modal-template").html();
+          var modal_template = Handlebars.compile(source);
+
+          var data = {
+            activities : [
+              {
+                title: "LoginActivity",
+                description: [
+                  {
+                    text: '<p class="text-justify">When the app is started the user has to give permissions to access device’s location and photos, media and other files (<a class="js-scroll-trigger" href="#Figure1">Figure 1</a>). Once the user gives all permissions, login screen is shown with Google’s Sign In button (<a class="js-scroll-trigger" href="#Figure2">Figure 2</a>).</p>'
+                  }
+                ],
+                images: [
+                  {
+                    section: "Figure1",
+                    src: "./assets/img/Travel Diary/LoginActivity1.jpg",
+                    alt: "Figure 1. Dialog requesting user‘s permission to access files",
+                    class: "col-6"
+                  },
+                  {
+                    section: "Figure2",
+                    src: "./assets/img/Travel Diary/LoginActivity2.jpg",
+                    alt: "Figure 2. Travel Diary login screen",
+                    class: "col-6"
+                  }
+                ]
+              },
+              {
+                title: "MainActivity",
+                description: [
+                  {
+                    text: '<p class="text-justify">In the main activity there is a ViewPager component that displays different fragments: GoogleMap (<a class="js-scroll-trigger" href="#Figure3">Figure 3</a>), GridView (<a class="js-scroll-trigger" href="#Figure4">Figure 4</a>) and RecyclerView (<a class="js-scroll-trigger" href="#Figure5">Figure 5</a>). Each of these fragments can be accessed through the buttons on the right side of the bottom bar.</p>'
+                  },
+                  {
+                    text: '<p class="text-justify">By clicking any of the two buttons on the left side, a filter dialog is shown which allows the user to filter through image files (by accessing Jpeg’s Exif metadata) by location and date (<a class="js-scroll-trigger" href="#Figure6">Figure 6</a>). Figures <a class="js-scroll-trigger" href="#Figure7">Figure 7</a> and <a class="js-scroll-trigger" href="#Figure8">Figure 8</a> show GridView and RecyclerView fragments after filtering by date from 2019-09-01 to 2019-12-01.</p>'
+                  },
+                  {
+                    text: '<p class="text-justify">Floating action button on the bottom toolbar opens UploadActivity.</p>'
+                  }
+                ],
+                images: [
+                  {
+                    section: "Figure3",
+                    src: "./assets/img/Travel Diary/MainActivity1.jpg",
+                    alt: "Figure 3. MapView",
+                    class: "col-md-4 col-6"
+                  },
+                  {
+                    section: "Figure4",
+                    src: "./assets/img/Travel Diary/MainActivity2.jpg",
+                    alt: "Figure 4. GridView",
+                    class: "col-md-4 col-6"
+                  },
+                  {
+                    section: "Figure5",
+                    src: "./assets/img/Travel Diary/MainActivity3.jpg",
+                    alt: "Figure 5. RecyclerView",
+                    class: "col-md-4 col-6"
+                  },
+                  {
+                    section: "Figure6",
+                    src: "./assets/img/Travel Diary/MainActivity4.jpg",
+                    alt: "Figure 6. Filter Dialog",
+                    class: "col-md-4 col-6"
+                  },
+                  {
+                    section: "Figure7",
+                    src: "./assets/img/Travel Diary/MainActivity5.jpg",
+                    alt: "Figure 7. RecyclerView after filtering images",
+                    class: "col-md-4 col-6"
+                  },
+                  {
+                    section: "Figure8",
+                    src: "./assets/img/Travel Diary/MainActivity6.jpg",
+                    alt: "Figure 8. GridView after applying filter",
+                    class: "col-md-4 col-6"
+                  }
+                ]
+              },
+              {
+                title: "UploadActivity",
+                description: [
+                  {
+                    text: '<p class="text-justify">This activity is used to select an image from the files inside the device’s storage. On the top there is a Spinner component that allows user to look through different file directories inside his device; by selecting a folder name in a spinner, that folder’s image files are loaded into the GridView component. after clicking on an item inside the grid, an image is selected which will be passed to another AddActivity by clicking a button on the top right corner. Figures <a class="js-scroll-trigger" href="#Figure9">Figure 9</a> and <a class="js-scroll-trigger" href="#Figure10">Figure 10</a> show UploadActivity with different folders selected.</p>'
+                  }
+                ],
+                images: [
+                  {
+                    section: "Figure9",
+                    src: "./assets/img/Travel Diary/UploadActivity1.jpg",
+                    alt: "Figure 9. UploadActivity view with „San Francisco, CA“ folder selected",
+                    class: "col-6"
+                  },
+                  {
+                    section: "Figure10",
+                    src: "./assets/img/Travel Diary/UploadActivity2.jpg",
+                    alt: "Figure 10. UploadActivity view with „VSCO“ folder selected",
+                    class: "col-6"
+                  }
+                ]
+              },
+              {
+                title: "AddActivity",
+                description: [
+                  {
+                    text: '<p class="text-justify">This activity is used to view Jpeg file’s EXIF metadata (if it exists) and create/update it for the selected image. AddActivity (<a class="js-scroll-trigger" href="#Figure11">Figure 11</a>) has 3 fields that the user can fill: location (GPS coordinates), date (EXIF_TAG_DATE_TIME_DIGITIZED) and description (EXIF_TAG_USER_COMMENT).</p>'
+                  },
+                  {
+                    text: '<p class="text-justify">By clicking on a button with a place tag icon, a Map dialog is shown (<a class="js-scroll-trigger" href="#Figure12">Figure 12</a>) in which the user can scroll the GoogleMap and select coordinates that will be written inside the file’s EXIF metadata.</p>'
+                  },
+                  {
+                    text: '<p class="text-justify">By clicking on a button with clock icon, a DatePicker dialog is displayed (<a class="js-scroll-trigger" href="#Figure13">Figure 13</a>) where the user can select the date that will be written inside the file’s EXIF metadata.</p>'
+                  },
+                  {
+                    text: '<p class="text-justify">Once the fields inside AddActivity are filled out, user can click on a “Send” button on the top right corner. After clicking it, a file copy with EXIF metadata is created inside the app directory on the device; then the image is uploaded to Google drive (<a class="js-scroll-trigger" href="#Figure14">Figure 14</a>) and another activity (PostActivity) is started.</p>'
+                  }
+                ],
+                images: [
+                  {
+                    section: "Figure11",
+                    src: "./assets/img/Travel Diary/AddActivity1.jpg",
+                    alt: "Figure 11. AddActivity screenshot",
+                    class: "col-4"
+                  },
+                  {
+                    section: "Figure12",
+                    src: "./assets/img/Travel Diary/AddActivity2.jpg",
+                    alt: "Figure 12. Map dialog",
+                    class: "col-4"
+                  },
+                  {
+                    section: "Figure13",
+                    src: "./assets/img/Travel Diary/AddActivity3.jpg",
+                    alt: "Figure 13. DatePicker dialog",
+                    class: "col-4"
+                  }
+                  ,
+                  {
+                    section: "Figure14",
+                    src: "./assets/img/Travel Diary/AddActivity4.png",
+                    alt: "Figure 14. A screenshot from Google Drive displaying the imported images from Travel Diary app",
+                    class: "col-12"
+                  }
+                ]
+              },
+              {
+                title: "PostActivity",
+                description: [
+                  {
+                    text: '<p class="text-justify">This activity is opened after clicking on a “Send” button inside AddActivity or clicking on an image inside GridView or RecyclerView in MainActivity. PostActivity displays image and it’s EXIF metadata (date, GPS coordinates and user comment) (<a class="js-scroll-trigger" href="#Figure15">Figure 15</a>). If a user wants to share, edit (not implemented) or delete the picture, he/she has to click on the button on the top right corner which then displays a dropdown list (<a class="js-scroll-trigger" href="#Figure16">Figure 16</a>). <a class="js-scroll-trigger" href="#Figure17">Figure 17</a> shows a Share dialog which is displayed after cicking on a menu item “Share to other apps…”.</p>'
+                  }
+                ],
+                images: [
+                  {
+                    section: "Figure15",
+                    src: "./assets/img/Travel Diary/PostActivity1.jpg",
+                    alt: "Figure 15. PostActivity screenshot",
+                    class: "col-4"
+                  },
+                  {
+                    section: "Figure2",
+                    src: "./assets/img/Travel Diary/PostActivity2.jpg",
+                    alt: "Figure 16. PostActivity screenshot after clicking on menu button",
+                    class: "col-4"
+                  },
+                  {
+                    section: "Figure2",
+                    src: "./assets/img/Travel Diary/PostActivity2.jpg",
+                    alt: "Figure 17. Share dialog",
+                    class: "col-4"
+                  }
+                ]
+              }
+            ]
+          };
+
+          var screenshots_html = screenshots_template(data);
+      	  $('#screenshots-content').html(screenshots_html);
+
+          $(".image").click(function(){
+            var img = {
+              src: $(this).attr('src'),
+              title: $(this).attr('alt')
+            };
+            var html = modal_template(img);
+            $('#content').html(html);
+
+            $("#imageModal").modal('show');
+      		});
+
+        </script>
+
+    </body>
+</html>
